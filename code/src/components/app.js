@@ -1,12 +1,11 @@
 import React from "react"
+import "./app.scss"
 
 class App extends React.Component {
 
   render() {
     return (
-      <div>
-        Find me in src/app.js!
-      </div>
+      <div className="hero-section">
     )
   }
 
