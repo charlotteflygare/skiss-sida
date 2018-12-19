@@ -1,0 +1,37 @@
+.footer-section {
+  width: 100%;
+  background-color: #f0f0f2;
+}
+
+.footer-image img {
+  width: 9%;
+  height: auto;
+}
+
+.footer-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-text p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.footer-text h4 {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.footer-image {
+  padding: 40px 0 40px 0;
+}
+
+.footer-text-column {
+  font-size: 14px;
+  padding: 40px 0 40px 0;
+  width: 50%;
+}
