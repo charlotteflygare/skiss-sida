@@ -91,22 +91,8 @@ h1 {
   z-index: 1;
 }
 
-.hero-text h2 {
-  font-style: Graphik;
-  font-size: 50px;
-  text-align: center;
-  color: #ffffff;
-  padding: 0;
-  margin: 0;
-}
 
-.hero-text p {
-  font-size: 26px;
-  text-align: center;
-  color: #ffffff;
-  padding: 0;
-  margin: 0;
-}
+
 .hero-section {
   display: flex;
   flex-direction: column;
@@ -127,8 +113,22 @@ h1 {
   top: 25%;
 }
 
+// h2 {
+// 	font-style: Graphik;
+// 	font-size: 50px;
+// 	text-align: center;
+// 	color: #ffffff;
+// 	padding: 0;
+// 	margin: 0;
+//
+// }
+
 .hero-text p {
-  margin: 30px 0 40px 0;
+	 margin: 30px 0 40px 0;
+	 font-size: 26px;
+	 text-align: center;
+	 color: #ffffff;
+	 padding: 0;
 }
 
 p span {
@@ -157,4 +157,51 @@ p span {
 
 .anmal-button {
 	margin: 10px 0 0 0;
+}
+
+@media screen and (max-width: 600px) {
+	.header-info {
+	  display: flex;
+		flex-direction: column;
+		align-items: center;
+		img {
+		  width: 70%;
+		  height: auto;
+		  padding: 10px 0 0 0;
+		}
+}
+.hero-image  {
+  img {
+    height: auto;
+    width: 280%;
+    // opacity: 0.8;
+  }
+}
+.hero-text {
+  top: 35%;
+	h1 {
+		font-size: 60px;
+		color: #ffffff;
+}
+}
+.hero-text p {
+ margin: 20px 0 40px 0;
+ font-size: 20px;
+ padding: 0;
+}
+.anmal-button {
+	margin: 0;
+}
+button {
+	  width: 130px;
+	}
+	button:hover {
+	  width: 130px;
+	}
+	.down-arrow {
+		position: absolute;
+		bottom: 0;
+	  top: 110%;
+		left:45%;
+	}
 }

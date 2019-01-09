@@ -63,7 +63,7 @@ class App extends React.Component {
                 <p>
                   Hur mycket man sover är väldigt individuellt och
                   varierar från person till person. De flesta sover
-                  mellan 5och 10 timmar per natt. Kvinnor behöver
+                  mellan 5 och 10 timmar per natt. Kvinnor behöver
                   generellt sätt lite mer sömn än män. Det förhöjda
                   sömnbehovet hos kvinnor har speciellt två anledningar:
                   kroppstemperaturen och hormoner.
