@@ -10,7 +10,7 @@ class Footer extends React.Component {
       <div className="footer-section">
         <Grid>
           <div className="footer-text">
-            <div className="footer-image">
+            <div className="footer-image-top">
               <img src="./images/logo_icon.png" alt="heart" />
             </div>
             <div className="footer-text-column">
@@ -46,6 +46,9 @@ class Footer extends React.Component {
                 <span>Användarregler</span>
               </p>
             </div>
+        </div>
+        <div className="footer-image">
+          <img src="./images/logo_icon.png" alt="heart" />
         </div>
         </Grid>
         </div>

@@ -232,3 +232,119 @@ p {
   left: 50%;
   transform: translateX(-50%);
 }
+
+.why-container-icons-gif-top {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper-title h2 {
+    font-style: Graphik;
+    font-size: 40px;
+    text-align: center;
+    color: #2B2C2C;
+    letter-spacing: -1px;
+    padding: 0;
+    margin: 0;
+  }
+  .wrapper-title {
+    margin: 60px 0 30px 0;
+  }
+  .how-container {
+    margin: 20px 0 0 0;
+    flex-direction: column;
+    // background-color: $bg-color_2;
+  }
+  .how-container-text {
+    width: 100%;
+    margin: 0 10px 40px 10px;
+  }
+  .how-container-icons {
+    display: none;
+    // display: flex;
+    // flex-direction: row;
+    // justify-content: center;
+    // align-items: baseline;
+    // width: 100%;
+  }
+  .how-container-icons-text {
+    align-items: center;
+    margin: 0 30px 0 30px;
+    width: 100%;
+  }
+  .how-container-icons-text img {
+    width: 180%;
+    height: auto;
+  }
+  .how-container-image-gender {
+    display: none;
+  }
+  .how-container-icons-gender {
+    display: none;
+  }
+  .how-container-text-gender {
+    width: 100%;
+    margin: 0 10px 60px 10px;
+  }
+  .how-container:nth-child(2) {
+    margin: 20px 0 0px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    // background-color: $bg-color_2;
+  }
+  .wrapper-title-somn h2 {
+    font-style: Graphik;
+    font-size: 40px;
+    text-align: center;
+    // color: #2B2C2C;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    padding: 60px 0 0 0;
+    margin: 0;
+  }
+
+  .wrapper-title-somn {
+    margin: 0px 0 60px 0;
+  }
+  .why-container {
+    margin: 0px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    // justify-content: space-between;
+    // background-color: #ffffff;
+  }
+
+  .why-container-text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    // padding: 30px 100px 0 100px;
+    margin: 0 10px 60px 0;
+    padding: 0;
+  }
+
+  .why-container-text p {
+    padding: 0 0 20px 0;
+    color: #ffffff;
+  }
+
+  .why-container-text h4 {
+    color: #ffffff;
+  }
+  .lasmer-button {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .why-container-icons-gif {
+    display: none;
+  }
+  .why-container-icons-gif-top {
+    display: block;
+    text-align: center;
+  }
+  .why-container-icons-gif-top img {
+    width: 90%;
+    height: auto;
+  }
+}

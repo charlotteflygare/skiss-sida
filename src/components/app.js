@@ -78,6 +78,9 @@ class App extends React.Component {
             <div className="wrapper-title-somn">
               <h2>Lider du av sömnsvårigheter?</h2>
             </div>
+            <div className="why-container-icons-gif-top">
+              <img src="./images/chaticon2.gif" alt="" />
+            </div>
             <div className="why-container">
               <div className="why-container-text">
                 <p>
