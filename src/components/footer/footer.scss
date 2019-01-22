@@ -3,7 +3,11 @@
   background-color: #f0f0f2;
 }
 
-.footer-image img {
+.footer-image {
+  display: none;
+}
+
+.footer-image-top img {
   width: 9%;
   height: auto;
 }
@@ -26,14 +30,17 @@
   line-height: 1.5;
 }
 
-.footer-image {
-  padding: 40px 0 40px 0;
-}
+
 
 .footer-text-column {
   font-size: 14px;
   padding: 40px 0 40px 0;
   width: 50%;
+}
+
+.footer-image-top {
+  display: block;
+  padding: 40px 0 40px 0;
 }
 
 @media screen and (max-width: 600px) {
@@ -69,6 +76,8 @@
   .footer-image {
     padding: 20px 0 20px 0;
     text-align: center;
+    display: block;
+
   }
 
   .footer-text-column {
