@@ -110,7 +110,7 @@ h1 {
   left: 0;
   right: 0;
   z-index: 10;
-  top: 25%;
+  top: 22%;
 }
 
 // h2 {
@@ -142,13 +142,13 @@ p span {
   overflow: hidden;
   height: auto;
   z-index: 0;
-  position: absolute;
+  position: relative;
   opacity: 0.5;
   margin: 0;
 
   img {
     height: auto;
-    width: 100%;
+    width: 110%;
 
     // opacity: 0.8;
     z-index: 0;
