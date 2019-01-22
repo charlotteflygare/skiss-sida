@@ -142,13 +142,13 @@ p span {
   overflow: hidden;
   height: auto;
   z-index: 0;
-  position: relative;
+  position: absolute;
   opacity: 0.5;
   margin: 0;
 
   img {
     height: auto;
-    width: 110%;
+    width: 100%;
 
     // opacity: 0.8;
     z-index: 0;
