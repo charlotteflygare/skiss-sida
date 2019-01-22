@@ -245,11 +245,11 @@ p {
     text-align: center;
     color: #2B2C2C;
     letter-spacing: -1px;
-    padding: 0;
+    // padding: 0;
     margin: 0;
   }
   .wrapper-title {
-    margin: 60px 0 30px 0;
+    margin: 60px 0 50px 0;
   }
   .how-container {
     margin: 20px 0 0 0;
@@ -332,6 +332,8 @@ p {
 
   .why-container-text h4 {
     color: #ffffff;
+    padding: 0 10px 0 10px;
+
   }
   .lasmer-button {
     margin-left: auto;
